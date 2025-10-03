@@ -1,11 +1,11 @@
 # CLONG (C. elegans Longevity-related Gene Predictor)
-CLONG is a model for predicting bacterial genes that influence _ C. elegans_ lifespan when used as food sources, particularly focusing on probiotic strains.
+CLONG is a model for predicting bacterial genes that influence _C. elegans_ lifespan when used as food sources, particularly focusing on probiotic strains.
 
 # Overview
-CLONG analyzes bacterial proteome to identify genes that may affect _C. elegans_ longevity. The deletion of those genes could extend the lifespan of _C. elegans_. It was validated using _Lacticaseibacillus rhamnosus_ as a model probiotic strain, known for extending _ C. elegans_ lifespan and providing resistance to oxidative stress and pathogens.
+CLONG analyzes bacterial proteome to identify genes that may affect _C. elegans_ longevity. The deletion of those genes could extend the lifespan of _C. elegans_. It was validated using _Lacticaseibacillus rhamnosus_ as a model probiotic strain, known for extending _C. elegans_ lifespan and providing resistance to oxidative stress and pathogens.
 
 # Features
-- Predicts genes that potentially influence _ C. elegans_ lifespan
+- Predicts genes that potentially influence _C. elegans_ lifespan
 - Assigns confidence scores (predicted probability) to gene predictions
 - Classifies genes into functional categories
 - Identifies candidates for gene deletion to enhance probiotic effects
