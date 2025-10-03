@@ -108,6 +108,7 @@ High Confidence Predictions (≥0.90):
 - skp (0.9923) - Protease/chaperone factor
 - aroD (0.9884) - Metabolism/respiration factor
 - purE (0.9407, 0.9433) - N5-carboxyaminoimidazole ribonucleotide mutase
+
 Lower Confidence Predictions:
 - aroG (0.8347)
 - hns (0.6074)
@@ -126,9 +127,7 @@ Lower Confidence Predictions:
 # Reference Implementation
 The model uses the Escherichia coli BW25113 strain as a reference, which contains 29 gene classes. Predictions in other strains are compared against this reference set.
 
-
-
-
-Screening potential probiotic strains
-Identifying genetic modifications for enhanced probiotic effects
-Evaluating strain safety and resistance mechanisms
+# Usage in Probiotic Development
+- Screening potential probiotic strains
+- Identifying genetic modifications for enhanced probiotic effects
+- Evaluating strain safety and resistance mechanisms
