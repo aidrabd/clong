@@ -5,7 +5,6 @@ import csv
 from keras.models import load_model
 from keras.utils import to_categorical
 
-# Constants (same as training)
 MAX_SEQ_LENGTH = 500
 AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 MODEL_PATH = "clong.h5"
@@ -116,3 +115,4 @@ if __name__ == "__main__":
     fasta_path = sys.argv[1]
 
     main(fasta_path)
+
