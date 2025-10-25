@@ -94,11 +94,6 @@ def main(fasta_file):
 
     preds_prob, preds_label_indices = predict_sequences(model, sequences)
 
-    # Since your model was trained with gene labels as classes, we must:
-    # - Extract label names from model output layer (using dummy labels from training)
-    # For now, let's assume label order saved in a separate file or hardcoded:
-    # To keep it simple, we can load labels from a "labels.txt" you create during training or you can hardcode here.
-    # For demonstration, let's pretend labels are sorted alphabetically by gene name:
     labels = sorted(MECHANISM_GENE_INFO.keys())
     index_to_label = {i: label for i, label in enumerate(labels)}
 
@@ -119,4 +114,5 @@ if __name__ == "__main__":
         print("Usage: python clong_predict.py <input_fasta_file>")
         sys.exit(1)
     fasta_path = sys.argv[1]
+
     main(fasta_path)
